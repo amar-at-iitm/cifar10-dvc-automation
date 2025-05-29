@@ -1,0 +1,4 @@
+torchvision     # Contains the CIFAR-10 dataset.
+tqdm            # Helps track progress while processing images.
+numpy           #Useful for handling image arrays.
+pillow          #(PIL) Helps convert and save images in PNG/JPG format.
