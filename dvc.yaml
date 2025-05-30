@@ -1,0 +1,8 @@
+stages:
+  pull_data:
+    cmd: python src/pull_data.py
+    deps:
+      - config.yaml 
+    outs:
+      - data/partitions
+
