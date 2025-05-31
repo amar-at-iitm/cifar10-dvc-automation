@@ -6,3 +6,15 @@ stages:
     outs:
       - data/partitions
 
+  data_preparation:
+    cmd: python src/data_preparation.py
+    deps:
+      - data/partitions
+      - config.yaml
+    outs:
+      - data/splits/train
+      - data/splits/val
+      - data/splits/test
+
+
+    
