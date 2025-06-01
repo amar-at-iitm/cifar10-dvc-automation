@@ -16,5 +16,12 @@ stages:
       - data/splits/val
       - data/splits/test
 
+  train_model:
+    cmd: python src/train_model.py
+    deps:
+      - data/splits/train
+      - data/splits/val
+      - config.yaml
+    outs:
+      - model/model.pth
 
-    
