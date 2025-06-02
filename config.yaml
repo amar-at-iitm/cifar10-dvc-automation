@@ -1,0 +1,24 @@
+seed: 42
+
+pull_data:
+  version: "v1+v2"
+
+split:
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+training:
+  batch_size: 64
+  epochs: 5
+  learning_rate: 0.001
+  conv_layers: 3
+  conv_filters: [32, 64, 128]
+  kernel_sizes: [3, 3, 3]
+  dropout: 0.25
+  fc_units: 256  # Number of units in the fully connected layer
+
+
+evaluation:
+  save_report: reports/evaluation_{version}_seed{seed}.json
+  confusion_matrix: results/confusion_matrix_{version}_seed{seed}.png
