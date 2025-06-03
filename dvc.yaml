@@ -25,3 +25,13 @@ stages:
     outs:
       - model/model.pth
 
+  evaluate:
+    cmd: python src/evaluate.py
+    deps:
+      - model/model.pth
+      - data/splits/test
+      - config.yaml
+    outs:
+      - reports  # Keeps all previous reports
+      - results  # Keeps all previous results
+    
