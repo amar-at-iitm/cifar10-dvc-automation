@@ -1,0 +1,6 @@
+2025-03-22 16:54:42,703 - INFO - Created train set with 28000 images
+2025-03-22 16:54:43,024 - INFO - Created val set with 6000 images
+2025-03-22 16:54:43,353 - INFO - Created test set with 6000 images
+2025-03-22 17:00:34,156 - INFO - Created train set with 14000 images
+2025-03-22 17:00:34,335 - INFO - Created val set with 3000 images
+2025-03-22 17:00:34,518 - INFO - Created test set with 3000 images

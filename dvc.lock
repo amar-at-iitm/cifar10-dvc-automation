@@ -1,0 +1,92 @@
+schema: '2.0'
+stages:
+  pull_data:
+    cmd: python src/pull_data.py
+    deps:
+    - path: config.yaml
+      hash: md5
+      md5: edc53cbbfef139ee5bc274e61326d907
+      size: 461
+    outs:
+    - path: data/partitions
+      hash: md5
+      md5: d751713988987e9331980363e24189ce.dir
+      size: 0
+      nfiles: 0
+  data_preparation:
+    cmd: python src/data_preparation.py
+    deps:
+    - path: config.yaml
+      hash: md5
+      md5: 4b39b1c46a057eb3b8d0a651ac5816c9
+      size: 462
+    - path: data/partitions
+      hash: md5
+      md5: 7ca0c2cb2aa024db2ec0de1598cd98cc.dir
+      size: 45110826
+      nfiles: 20000
+    outs:
+    - path: data/splits/test
+      hash: md5
+      md5: 0999a011981f9d35a5e8445d113a9666.dir
+      size: 6746587
+      nfiles: 3000
+    - path: data/splits/train
+      hash: md5
+      md5: e4a4f45d0b731e6cffb709fabfc90933.dir
+      size: 31588504
+      nfiles: 14000
+    - path: data/splits/val
+      hash: md5
+      md5: b40e5019dbce055057f92d57e09088b6.dir
+      size: 6775735
+      nfiles: 3000
+  train_model:
+    cmd: python src/train_model.py
+    deps:
+    - path: config.yaml
+      hash: md5
+      md5: 4b39b1c46a057eb3b8d0a651ac5816c9
+      size: 462
+    - path: data/splits/train
+      hash: md5
+      md5: e4a4f45d0b731e6cffb709fabfc90933.dir
+      size: 31588504
+      nfiles: 14000
+    - path: data/splits/val
+      hash: md5
+      md5: b40e5019dbce055057f92d57e09088b6.dir
+      size: 6775735
+      nfiles: 3000
+    outs:
+    - path: model/model.pth
+      hash: md5
+      md5: 33a64a212ca5d8e952c9a51a66736c6f
+      size: 2484636
+  evaluate:
+    cmd: python src/evaluate.py
+    deps:
+    - path: config.yaml
+      hash: md5
+      md5: e59aabb34bfdb8809a538ded788e7a36
+      size: 461
+    - path: data/splits/test
+      hash: md5
+      md5: 0999a011981f9d35a5e8445d113a9666.dir
+      size: 6746587
+      nfiles: 3000
+    - path: model/model.pth
+      hash: md5
+      md5: 66e11df45c3e1871d205eab480933f95
+      size: 2484636
+    outs:
+    - path: reports
+      hash: md5
+      md5: 40af37932009f498c7ebe5eeeabd9460.dir
+      size: 1566
+      nfiles: 1
+    - path: results
+      hash: md5
+      md5: dbc69b6a5227d40b3fddb357f2da727b.dir
+      size: 58918
+      nfiles: 1

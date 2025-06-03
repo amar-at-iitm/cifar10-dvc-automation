@@ -1,0 +1,510 @@
+2025-03-22 16:19:31,522 - INFO - Epoch 1/10, Loss: 775.4925, Accuracy: 49.27%
+2025-03-22 16:19:52,786 - INFO - Epoch 2/10, Loss: 598.1213, Accuracy: 56.66%
+2025-03-22 16:20:15,020 - INFO - Epoch 3/10, Loss: 505.0508, Accuracy: 60.12%
+2025-03-22 16:20:39,826 - INFO - Epoch 4/10, Loss: 445.0578, Accuracy: 64.06%
+2025-03-22 16:21:06,225 - INFO - Epoch 5/10, Loss: 388.9037, Accuracy: 66.46%
+2025-03-22 16:21:30,928 - INFO - Epoch 6/10, Loss: 349.2339, Accuracy: 67.85%
+2025-03-22 16:21:57,194 - INFO - Epoch 7/10, Loss: 309.8697, Accuracy: 67.90%
+2025-03-22 16:22:25,939 - INFO - Epoch 8/10, Loss: 273.7316, Accuracy: 70.40%
+2025-03-22 16:22:53,233 - INFO - Epoch 9/10, Loss: 238.6752, Accuracy: 70.65%
+2025-03-22 16:23:19,713 - INFO - Epoch 10/10, Loss: 206.5303, Accuracy: 70.44%
+2025-03-22 16:23:19,717 - INFO - Model training completed.
+2025-03-22 16:23:52,218 - INFO - Epoch 1/10, Loss: 747.4664, Accuracy: 48.70%
+2025-03-22 16:24:17,035 - INFO - Epoch 2/10, Loss: 571.2084, Accuracy: 58.86%
+2025-03-22 16:24:42,369 - INFO - Epoch 3/10, Loss: 483.5125, Accuracy: 64.26%
+2025-03-22 16:25:10,644 - INFO - Epoch 4/10, Loss: 416.2989, Accuracy: 66.68%
+2025-03-22 16:25:36,877 - INFO - Epoch 5/10, Loss: 368.4082, Accuracy: 67.55%
+2025-03-22 16:26:04,934 - INFO - Epoch 6/10, Loss: 321.9622, Accuracy: 69.73%
+2025-03-22 16:26:35,180 - INFO - Epoch 7/10, Loss: 283.6136, Accuracy: 70.16%
+2025-03-22 16:27:01,377 - INFO - Epoch 8/10, Loss: 240.3943, Accuracy: 70.59%
+2025-03-22 16:27:27,600 - INFO - Epoch 9/10, Loss: 203.0674, Accuracy: 71.53%
+2025-03-22 16:27:54,362 - INFO - Epoch 10/10, Loss: 165.0189, Accuracy: 71.79%
+2025-03-22 16:27:54,369 - INFO - Model training completed.
+2025-03-22 16:27:54,373 - INFO - Using device: cpu
+2025-03-22 16:27:57,909 - INFO - Overall Accuracy: 71.08%
+2025-03-22 16:27:57,925 - INFO - Classification Report:
+{
+    "airplane": {
+        "precision": 0.7543307086614173,
+        "recall": 0.7472698907956318,
+        "f1-score": 0.7507836990595611,
+        "support": 641.0
+    },
+    "automobile": {
+        "precision": 0.7532981530343008,
+        "recall": 0.8921875,
+        "f1-score": 0.8168812589413448,
+        "support": 640.0
+    },
+    "bird": {
+        "precision": 0.6217712177121771,
+        "recall": 0.5750853242320819,
+        "f1-score": 0.5975177304964538,
+        "support": 586.0
+    },
+    "cat": {
+        "precision": 0.501358695652174,
+        "recall": 0.5774647887323944,
+        "f1-score": 0.5367272727272727,
+        "support": 639.0
+    },
+    "deer": {
+        "precision": 0.6385041551246537,
+        "recall": 0.719188767550702,
+        "f1-score": 0.6764490095377843,
+        "support": 641.0
+    },
+    "dog": {
+        "precision": 0.7201565557729941,
+        "recall": 0.5500747384155455,
+        "f1-score": 0.6237288135593221,
+        "support": 669.0
+    },
+    "frog": {
+        "precision": 0.8292682926829268,
+        "recall": 0.7531645569620253,
+        "f1-score": 0.7893864013266998,
+        "support": 632.0
+    },
+    "horse": {
+        "precision": 0.7336377473363774,
+        "recall": 0.7875816993464052,
+        "f1-score": 0.7596532702915682,
+        "support": 612.0
+    },
+    "ship": {
+        "precision": 0.7549295774647887,
+        "recall": 0.8562300319488818,
+        "f1-score": 0.8023952095808383,
+        "support": 626.0
+    },
+    "truck": {
+        "precision": 0.8672199170124482,
+        "recall": 0.6521060842433697,
+        "f1-score": 0.7444345503116652,
+        "support": 641.0
+    },
+    "accuracy": 0.7107633949739213,
+    "macro avg": {
+        "precision": 0.7174475020454258,
+        "recall": 0.7110353382227037,
+        "f1-score": 0.709795721583251,
+        "support": 6327.0
+    },
+    "weighted avg": {
+        "precision": 0.7180317032061706,
+        "recall": 0.7107633949739213,
+        "f1-score": 0.7098673653473195,
+        "support": 6327.0
+    }
+}
+2025-03-22 16:27:57,926 - INFO - Evaluation report saved at reports/evaluation_v1_seed42.json
+2025-03-22 16:27:58,229 - INFO - Confusion matrix saved at results/confusion_matrix_v1_seed42.png
+2025-03-22 16:28:51,469 - INFO - Epoch 1/10, Loss: 772.3720, Accuracy: 47.68%
+2025-03-22 16:29:15,744 - INFO - Epoch 2/10, Loss: 590.7988, Accuracy: 57.61%
+2025-03-22 16:29:41,533 - INFO - Epoch 3/10, Loss: 505.4635, Accuracy: 60.83%
+2025-03-22 16:30:07,530 - INFO - Epoch 4/10, Loss: 438.5671, Accuracy: 65.20%
+2025-03-22 16:30:38,976 - INFO - Epoch 5/10, Loss: 384.3434, Accuracy: 67.30%
+2025-03-22 16:31:05,426 - INFO - Epoch 6/10, Loss: 338.6705, Accuracy: 68.93%
+2025-03-22 16:31:32,912 - INFO - Epoch 7/10, Loss: 299.6017, Accuracy: 70.32%
+2025-03-22 16:31:59,910 - INFO - Epoch 8/10, Loss: 257.9066, Accuracy: 70.59%
+2025-03-22 16:32:26,462 - INFO - Epoch 9/10, Loss: 224.7280, Accuracy: 70.78%
+2025-03-22 16:32:53,241 - INFO - Epoch 10/10, Loss: 187.6653, Accuracy: 71.25%
+2025-03-22 16:32:53,245 - INFO - Model training completed.
+2025-03-22 16:33:24,062 - INFO - Epoch 1/10, Loss: 761.7119, Accuracy: 48.46%
+2025-03-22 16:33:47,889 - INFO - Epoch 2/10, Loss: 596.0936, Accuracy: 56.58%
+2025-03-22 16:34:13,834 - INFO - Epoch 3/10, Loss: 507.2267, Accuracy: 62.56%
+2025-03-22 16:34:39,244 - INFO - Epoch 4/10, Loss: 443.7194, Accuracy: 63.81%
+2025-03-22 16:35:04,010 - INFO - Epoch 5/10, Loss: 391.1732, Accuracy: 66.00%
+2025-03-22 16:35:28,917 - INFO - Epoch 6/10, Loss: 348.8918, Accuracy: 67.82%
+2025-03-22 16:35:57,056 - INFO - Epoch 7/10, Loss: 311.3505, Accuracy: 68.63%
+2025-03-22 16:36:20,761 - INFO - Epoch 8/10, Loss: 268.2861, Accuracy: 69.69%
+2025-03-22 16:36:45,772 - INFO - Epoch 9/10, Loss: 233.2883, Accuracy: 69.64%
+2025-03-22 16:37:10,858 - INFO - Epoch 10/10, Loss: 197.7221, Accuracy: 70.44%
+2025-03-22 16:37:10,865 - INFO - Model training completed.
+2025-03-22 16:37:10,868 - INFO - Using device: cpu
+2025-03-22 16:37:13,750 - INFO - Overall Accuracy: 70.18%
+2025-03-22 16:37:13,762 - INFO - Classification Report:
+{
+    "airplane": {
+        "precision": 0.8003565062388592,
+        "recall": 0.7004680187207488,
+        "f1-score": 0.7470881863560732,
+        "support": 641.0
+    },
+    "automobile": {
+        "precision": 0.7622950819672131,
+        "recall": 0.871875,
+        "f1-score": 0.8134110787172012,
+        "support": 640.0
+    },
+    "bird": {
+        "precision": 0.6226415094339622,
+        "recall": 0.5631399317406144,
+        "f1-score": 0.5913978494623656,
+        "support": 586.0
+    },
+    "cat": {
+        "precision": 0.4818435754189944,
+        "recall": 0.539906103286385,
+        "f1-score": 0.5092250922509225,
+        "support": 639.0
+    },
+    "deer": {
+        "precision": 0.6548672566371682,
+        "recall": 0.6926677067082684,
+        "f1-score": 0.6732373009855952,
+        "support": 641.0
+    },
+    "dog": {
+        "precision": 0.6079295154185022,
+        "recall": 0.6188340807174888,
+        "f1-score": 0.6133333333333333,
+        "support": 669.0
+    },
+    "frog": {
+        "precision": 0.7301587301587301,
+        "recall": 0.8006329113924051,
+        "f1-score": 0.7637735849056604,
+        "support": 632.0
+    },
+    "horse": {
+        "precision": 0.7835420393559929,
+        "recall": 0.7156862745098039,
+        "f1-score": 0.7480785653287788,
+        "support": 612.0
+    },
+    "ship": {
+        "precision": 0.7785714285714286,
+        "recall": 0.8706070287539937,
+        "f1-score": 0.8220211161387632,
+        "support": 626.0
+    },
+    "truck": {
+        "precision": 0.8616352201257862,
+        "recall": 0.641185647425897,
+        "f1-score": 0.7352415026833632,
+        "support": 641.0
+    },
+    "accuracy": 0.7017543859649122,
+    "macro avg": {
+        "precision": 0.7083840863326637,
+        "recall": 0.7015002703255606,
+        "f1-score": 0.7016807610162056,
+        "support": 6327.0
+    },
+    "weighted avg": {
+        "precision": 0.7082061064376631,
+        "recall": 0.7017543859649122,
+        "f1-score": 0.7017053439327952,
+        "support": 6327.0
+    }
+}
+2025-03-22 16:37:13,762 - INFO - Evaluation report saved at reports/evaluation_v2_seed42.json
+2025-03-22 16:37:14,108 - INFO - Confusion matrix saved at results/confusion_matrix_v2_seed42.png
+2025-03-22 16:38:04,606 - INFO - Epoch 1/10, Loss: 765.1047, Accuracy: 49.98%
+2025-03-22 16:38:31,313 - INFO - Epoch 2/10, Loss: 586.6127, Accuracy: 57.12%
+2025-03-22 16:38:57,168 - INFO - Epoch 3/10, Loss: 493.0666, Accuracy: 63.16%
+2025-03-22 16:39:25,315 - INFO - Epoch 4/10, Loss: 428.2605, Accuracy: 64.71%
+2025-03-22 16:39:52,652 - INFO - Epoch 5/10, Loss: 376.9997, Accuracy: 67.30%
+2025-03-22 16:40:20,401 - INFO - Epoch 6/10, Loss: 334.3196, Accuracy: 69.69%
+2025-03-22 16:40:47,100 - INFO - Epoch 7/10, Loss: 296.7559, Accuracy: 69.61%
+2025-03-22 16:41:13,253 - INFO - Epoch 8/10, Loss: 257.7898, Accuracy: 70.14%
+2025-03-22 16:41:38,691 - INFO - Epoch 9/10, Loss: 219.4274, Accuracy: 70.43%
+2025-03-22 16:42:06,640 - INFO - Epoch 10/10, Loss: 184.3128, Accuracy: 70.82%
+2025-03-22 16:42:06,645 - INFO - Model training completed.
+2025-03-22 16:42:40,067 - INFO - Epoch 1/10, Loss: 745.9343, Accuracy: 49.50%
+2025-03-22 16:43:09,075 - INFO - Epoch 2/10, Loss: 554.0791, Accuracy: 60.79%
+2025-03-22 16:43:42,607 - INFO - Epoch 3/10, Loss: 464.1746, Accuracy: 64.74%
+2025-03-22 16:44:10,850 - INFO - Epoch 4/10, Loss: 400.6702, Accuracy: 67.49%
+2025-03-22 16:44:39,893 - INFO - Epoch 5/10, Loss: 352.2115, Accuracy: 69.16%
+2025-03-22 16:45:11,364 - INFO - Epoch 6/10, Loss: 311.4316, Accuracy: 67.65%
+2025-03-22 16:45:41,336 - INFO - Epoch 7/10, Loss: 269.5539, Accuracy: 72.17%
+2025-03-22 16:46:08,651 - INFO - Epoch 8/10, Loss: 230.6065, Accuracy: 72.97%
+2025-03-22 16:46:35,016 - INFO - Epoch 9/10, Loss: 195.2918, Accuracy: 72.53%
+2025-03-22 16:47:02,816 - INFO - Epoch 10/10, Loss: 162.7735, Accuracy: 72.61%
+2025-03-22 16:47:02,824 - INFO - Model training completed.
+2025-03-22 16:47:02,827 - INFO - Using device: cpu
+2025-03-22 16:47:06,163 - INFO - Overall Accuracy: 71.76%
+2025-03-22 16:47:06,182 - INFO - Classification Report:
+{
+    "airplane": {
+        "precision": 0.7857142857142857,
+        "recall": 0.7207488299531981,
+        "f1-score": 0.7518307567127747,
+        "support": 641.0
+    },
+    "automobile": {
+        "precision": 0.8183139534883721,
+        "recall": 0.8796875,
+        "f1-score": 0.8478915662650602,
+        "support": 640.0
+    },
+    "bird": {
+        "precision": 0.6313799621928167,
+        "recall": 0.5699658703071673,
+        "f1-score": 0.5991031390134529,
+        "support": 586.0
+    },
+    "cat": {
+        "precision": 0.4736196319018405,
+        "recall": 0.6040688575899843,
+        "f1-score": 0.530949105914718,
+        "support": 639.0
+    },
+    "deer": {
+        "precision": 0.7049742710120068,
+        "recall": 0.641185647425897,
+        "f1-score": 0.6715686274509803,
+        "support": 641.0
+    },
+    "dog": {
+        "precision": 0.6235632183908046,
+        "recall": 0.648729446935725,
+        "f1-score": 0.6358974358974359,
+        "support": 669.0
+    },
+    "frog": {
+        "precision": 0.7911392405063291,
+        "recall": 0.7911392405063291,
+        "f1-score": 0.7911392405063291,
+        "support": 632.0
+    },
+    "horse": {
+        "precision": 0.7992957746478874,
+        "recall": 0.7418300653594772,
+        "f1-score": 0.7694915254237288,
+        "support": 612.0
+    },
+    "ship": {
+        "precision": 0.8015267175572519,
+        "recall": 0.8386581469648562,
+        "f1-score": 0.819672131147541,
+        "support": 626.0
+    },
+    "truck": {
+        "precision": 0.8219895287958116,
+        "recall": 0.734789391575663,
+        "f1-score": 0.7759472817133443,
+        "support": 641.0
+    },
+    "accuracy": 0.717559664928086,
+    "macro avg": {
+        "precision": 0.7251516584207406,
+        "recall": 0.7170802996618296,
+        "f1-score": 0.7193490810045364,
+        "support": 6327.0
+    },
+    "weighted avg": {
+        "precision": 0.7249672385113464,
+        "recall": 0.717559664928086,
+        "f1-score": 0.7194944974950709,
+        "support": 6327.0
+    }
+}
+2025-03-22 16:47:06,183 - INFO - Evaluation report saved at reports/evaluation_v3_seed42.json
+2025-03-22 16:47:06,506 - INFO - Confusion matrix saved at results/confusion_matrix_v3_seed42.png
+2025-03-22 16:55:26,712 - INFO - Epoch 1/10, Loss: 728.3919, Accuracy: 51.18%
+2025-03-22 16:55:48,595 - INFO - Epoch 2/10, Loss: 559.0740, Accuracy: 59.30%
+2025-03-22 16:56:12,491 - INFO - Epoch 3/10, Loss: 476.6440, Accuracy: 62.50%
+2025-03-22 16:56:38,159 - INFO - Epoch 4/10, Loss: 419.0843, Accuracy: 64.07%
+2025-03-22 16:57:05,520 - INFO - Epoch 5/10, Loss: 375.7715, Accuracy: 64.95%
+2025-03-22 16:57:30,698 - INFO - Epoch 6/10, Loss: 334.2254, Accuracy: 67.65%
+2025-03-22 16:57:58,991 - INFO - Epoch 7/10, Loss: 296.0700, Accuracy: 70.00%
+2025-03-22 16:58:28,212 - INFO - Epoch 8/10, Loss: 267.0031, Accuracy: 70.18%
+2025-03-22 16:58:58,241 - INFO - Epoch 9/10, Loss: 234.8102, Accuracy: 69.72%
+2025-03-22 16:59:23,342 - INFO - Epoch 10/10, Loss: 201.4012, Accuracy: 71.55%
+2025-03-22 16:59:23,348 - INFO - Model training completed.
+2025-03-22 17:00:56,848 - INFO - Epoch 1/10, Loss: 411.4473, Accuracy: 41.77%
+2025-03-22 17:01:07,390 - INFO - Epoch 2/10, Loss: 329.2180, Accuracy: 51.63%
+2025-03-22 17:01:19,804 - INFO - Epoch 3/10, Loss: 295.1261, Accuracy: 55.20%
+2025-03-22 17:01:32,604 - INFO - Epoch 4/10, Loss: 268.4840, Accuracy: 56.27%
+2025-03-22 17:01:45,499 - INFO - Epoch 5/10, Loss: 243.7861, Accuracy: 59.27%
+2025-03-22 17:01:57,853 - INFO - Epoch 6/10, Loss: 222.8945, Accuracy: 61.13%
+2025-03-22 17:02:10,401 - INFO - Epoch 7/10, Loss: 207.4162, Accuracy: 62.07%
+2025-03-22 17:02:23,280 - INFO - Epoch 8/10, Loss: 187.3157, Accuracy: 60.43%
+2025-03-22 17:02:35,822 - INFO - Epoch 9/10, Loss: 170.9540, Accuracy: 64.07%
+2025-03-22 17:02:48,601 - INFO - Epoch 10/10, Loss: 153.0102, Accuracy: 64.97%
+2025-03-22 17:02:48,604 - INFO - Model training completed.
+2025-03-22 17:03:06,994 - INFO - Epoch 1/10, Loss: 406.0236, Accuracy: 42.93%
+2025-03-22 17:03:18,729 - INFO - Epoch 2/10, Loss: 323.2783, Accuracy: 47.77%
+2025-03-22 17:03:29,851 - INFO - Epoch 3/10, Loss: 287.5212, Accuracy: 57.37%
+2025-03-22 17:03:42,494 - INFO - Epoch 4/10, Loss: 254.1550, Accuracy: 57.30%
+2025-03-22 17:03:54,211 - INFO - Epoch 5/10, Loss: 230.8953, Accuracy: 60.53%
+2025-03-22 17:04:06,583 - INFO - Epoch 6/10, Loss: 203.8714, Accuracy: 61.73%
+2025-03-22 17:04:18,551 - INFO - Epoch 7/10, Loss: 184.1609, Accuracy: 62.83%
+2025-03-22 17:04:30,288 - INFO - Epoch 8/10, Loss: 164.7490, Accuracy: 65.60%
+2025-03-22 17:04:42,409 - INFO - Epoch 9/10, Loss: 144.5024, Accuracy: 66.37%
+2025-03-22 17:04:54,662 - INFO - Epoch 10/10, Loss: 123.7052, Accuracy: 66.43%
+2025-03-22 17:04:54,669 - INFO - Model training completed.
+2025-03-22 17:04:54,672 - INFO - Using device: cpu
+2025-03-22 17:04:56,206 - INFO - Overall Accuracy: 66.03%
+2025-03-22 17:04:56,216 - INFO - Classification Report:
+{
+    "airplane": {
+        "precision": 0.6461538461538462,
+        "recall": 0.7777777777777778,
+        "f1-score": 0.7058823529411765,
+        "support": 324.0
+    },
+    "automobile": {
+        "precision": 0.8060200668896321,
+        "recall": 0.765079365079365,
+        "f1-score": 0.7850162866449512,
+        "support": 315.0
+    },
+    "bird": {
+        "precision": 0.5743801652892562,
+        "recall": 0.5036231884057971,
+        "f1-score": 0.5366795366795367,
+        "support": 276.0
+    },
+    "cat": {
+        "precision": 0.5469613259668509,
+        "recall": 0.34375,
+        "f1-score": 0.42217484008528783,
+        "support": 288.0
+    },
+    "deer": {
+        "precision": 0.5868055555555556,
+        "recall": 0.5807560137457045,
+        "f1-score": 0.5837651122625216,
+        "support": 291.0
+    },
+    "dog": {
+        "precision": 0.5482866043613707,
+        "recall": 0.5789473684210527,
+        "f1-score": 0.5632,
+        "support": 304.0
+    },
+    "frog": {
+        "precision": 0.7425742574257426,
+        "recall": 0.7377049180327869,
+        "f1-score": 0.7401315789473685,
+        "support": 305.0
+    },
+    "horse": {
+        "precision": 0.6143617021276596,
+        "recall": 0.8162544169611308,
+        "f1-score": 0.701062215477997,
+        "support": 283.0
+    },
+    "ship": {
+        "precision": 0.8154981549815498,
+        "recall": 0.6949685534591195,
+        "f1-score": 0.7504244482173175,
+        "support": 318.0
+    },
+    "truck": {
+        "precision": 0.6930091185410334,
+        "recall": 0.7702702702702703,
+        "f1-score": 0.7296,
+        "support": 296.0
+    },
+    "accuracy": 0.6603333333333333,
+    "macro avg": {
+        "precision": 0.6574050797292497,
+        "recall": 0.6569131872153005,
+        "f1-score": 0.6517936371256157,
+        "support": 3000.0
+    },
+    "weighted avg": {
+        "precision": 0.6605173739013831,
+        "recall": 0.6603333333333333,
+        "f1-score": 0.6551738931583124,
+        "support": 3000.0
+    }
+}
+2025-03-22 17:04:56,217 - INFO - Evaluation report saved at reports/evaluation_v1_seed42.json
+2025-03-22 17:04:56,672 - INFO - Confusion matrix saved at results/confusion_matrix_v1_seed42.png
+2025-03-22 17:11:37,717 - INFO - Epoch 1/10, Loss: 398.4859, Accuracy: 44.03%
+2025-03-22 17:11:47,114 - INFO - Epoch 2/10, Loss: 322.3602, Accuracy: 50.23%
+2025-03-22 17:11:56,880 - INFO - Epoch 3/10, Loss: 285.2627, Accuracy: 53.83%
+2025-03-22 17:12:07,429 - INFO - Epoch 4/10, Loss: 256.2470, Accuracy: 56.47%
+2025-03-22 17:12:17,879 - INFO - Epoch 5/10, Loss: 231.6039, Accuracy: 59.13%
+2025-03-22 17:12:29,384 - INFO - Epoch 6/10, Loss: 214.2764, Accuracy: 61.60%
+2025-03-22 17:12:40,600 - INFO - Epoch 7/10, Loss: 193.7268, Accuracy: 63.07%
+2025-03-22 17:12:52,443 - INFO - Epoch 8/10, Loss: 173.5287, Accuracy: 64.63%
+2025-03-22 17:13:03,179 - INFO - Epoch 9/10, Loss: 156.3658, Accuracy: 64.17%
+2025-03-22 17:13:16,391 - INFO - Epoch 10/10, Loss: 137.7480, Accuracy: 65.10%
+2025-03-22 17:13:16,397 - INFO - Model training completed.
+2025-03-22 17:13:16,402 - INFO - Using device: cpu
+2025-03-22 17:13:18,584 - INFO - Overall Accuracy: 65.13%
+2025-03-22 17:13:18,596 - INFO - Classification Report:
+{
+    "airplane": {
+        "precision": 0.7732793522267206,
+        "recall": 0.5895061728395061,
+        "f1-score": 0.6690017513134852,
+        "support": 324.0
+    },
+    "automobile": {
+        "precision": 0.8129496402877698,
+        "recall": 0.7174603174603175,
+        "f1-score": 0.7622259696458684,
+        "support": 315.0
+    },
+    "bird": {
+        "precision": 0.5185185185185185,
+        "recall": 0.6086956521739131,
+        "f1-score": 0.56,
+        "support": 276.0
+    },
+    "cat": {
+        "precision": 0.41849148418491483,
+        "recall": 0.5972222222222222,
+        "f1-score": 0.49213161659513593,
+        "support": 288.0
+    },
+    "deer": {
+        "precision": 0.6073825503355704,
+        "recall": 0.6219931271477663,
+        "f1-score": 0.6146010186757216,
+        "support": 291.0
+    },
+    "dog": {
+        "precision": 0.675,
+        "recall": 0.4440789473684211,
+        "f1-score": 0.5357142857142857,
+        "support": 304.0
+    },
+    "frog": {
+        "precision": 0.8436018957345972,
+        "recall": 0.5836065573770491,
+        "f1-score": 0.689922480620155,
+        "support": 305.0
+    },
+    "horse": {
+        "precision": 0.7035830618892508,
+        "recall": 0.7632508833922261,
+        "f1-score": 0.7322033898305085,
+        "support": 283.0
+    },
+    "ship": {
+        "precision": 0.6666666666666666,
+        "recall": 0.8301886792452831,
+        "f1-score": 0.7394957983193278,
+        "support": 318.0
+    },
+    "truck": {
+        "precision": 0.6798780487804879,
+        "recall": 0.7533783783783784,
+        "f1-score": 0.7147435897435898,
+        "support": 296.0
+    },
+    "accuracy": 0.6513333333333333,
+    "macro avg": {
+        "precision": 0.6699351218624497,
+        "recall": 0.6509380937605082,
+        "f1-score": 0.6510039900458078,
+        "support": 3000.0
+    },
+    "weighted avg": {
+        "precision": 0.6739543715562857,
+        "recall": 0.6513333333333333,
+        "f1-score": 0.6530737916920082,
+        "support": 3000.0
+    }
+}
+2025-03-22 17:13:18,596 - INFO - Evaluation report saved at reports/evaluation_v1_seed42.json
+2025-03-22 17:13:19,015 - INFO - Confusion matrix saved at results/confusion_matrix_v1_seed42.png
